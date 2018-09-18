@@ -744,7 +744,7 @@ Accept wildcard characters: False
 ### -CheckInitialProvisioningSetting
 The CheckInitialProvisioningSetting switch specifies that the move request checks the IsExcludedFromProvisioning setting on the target database when you don't specify a target database for the move. You don't need to specify a value with this switch.
 
-The IsExcludedFromProvisioning setting allows the database to be excluded from provisioning new mailboxes.
+The IsExcludedFromProvisioning setting allows the database to be excluded from provisioning new mailboxes. This is not available to tenant asministrators.  It's only available to datacenter operations staff.
 
 ```yaml
 Type: SwitchParameter
